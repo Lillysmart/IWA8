@@ -21,7 +21,7 @@ const leo = {
   address: {
     number: leoNumber,
     street: leoStreet,
-    postalCode: leoPostal,
+    postal_code: leoPostal,
   },
 };
 
@@ -37,5 +37,5 @@ const sarah = {
   },
 };
 
-console.log(leo.address);
-console.log(sarah.address);
+console.log(leo, leo.address.postal_code);
+console.log(sarah, sarah.address.postal_code);
